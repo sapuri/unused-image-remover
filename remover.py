@@ -3,7 +3,8 @@ from pathlib import Path
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Unused Image Remover')
+    parser = argparse.ArgumentParser(
+        description='Unused Image Remover: Unused image removal tool for image annotation work')
     parser.add_argument('image_dir', help='Input the image directory. (e.g. ./images)')
     parser.add_argument('-d', '--delete', action='store_true', help='Delete the images.')
 
